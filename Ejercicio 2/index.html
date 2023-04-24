@@ -1,0 +1,44 @@
+
+<!-- Ejercicio 2-->
+<!-- 2. Utilizando solamente código php y POO cree un código que permita evaluar la temperatura
+en grados centígrados con las siguientes condiciones:
+Temperatura <=0 imprimir en color azul el texto “temperatura máximamente FRIA”.
+Temperatura <=30 imprimir en color amarillo el texto “temperatura estable”.
+Temperatura >=31 imprimir en color rojo el texto “temperatura máximamente CALIENTE”.-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            display: inline-block;
+            text-align: center;
+            margin-left: 120px;
+            margin-bottom: 9px;
+        }
+    </style>
+    <title>Evaluar temperatura</title>
+</head>
+<body>
+<h1> Evaluar temperatura</h1>
+
+<div class="card" style="width: 14rem;">
+    <img src="./img/img1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">temperatura en centigrados</h5>
+      <form method="POST" action="evaluar.php">
+        <label> </label><br>
+        <input type="" name="grados"  placeholder="Ingrese temperatura"><br>
+        <br>
+        <input type="submit" value="Evaluar">   
+        <input type="text" hidden name="Evaluar" value = "1">
+      <p class="card-text">
+        <br> 
+
+</body>
+</html>
+
